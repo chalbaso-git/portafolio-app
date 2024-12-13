@@ -1,0 +1,51 @@
+.professional__experience__main {
+    background: var(--background-secondary);
+}
+
+.professional__experience___section .professional__experience {
+    text-align: center;
+    padding: .7rem;
+    width: 30%;
+}
+
+.card__professional__experience .article__gallery___img {
+    margin: auto;
+    width: 10vw;
+    height: 20vh;
+}
+
+.card__professional__experience .article__gallery___img img {
+    margin: 2rem;
+    width: 50%;
+}
+
+
+/*tablet or Ipad*/
+
+@media (max-width:900px) {
+    .card__professional__experience .article__gallery___img {
+        width: 7vw;
+        height: 5vh;
+    }
+    .card__professional__experience .article__gallery___img img {
+        margin: .75rem;
+    }
+}
+
+
+/*Smartphone or Iphone*/
+
+@media (max-width:400px) {
+    .professional__experience___section .card__professional__experience {
+        width: 100%;
+    }
+    .card__professional__experience .article__gallery___img {
+        width: 85%;
+        height: 26vh;
+        padding: .75rem;
+    }
+    .card__professional__experience .article__gallery___img img {
+        width: 60%;
+        margin: auto;
+    }
+}
